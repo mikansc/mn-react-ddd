@@ -5,9 +5,12 @@
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "jsx": "react",
     "module": "ESNext",
-    "rootDir": "src",
     "moduleResolution": "node",
+    "rootDir": "src",
     "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
     "resolveJsonModule": true,
     "allowJs": true,
     "noEmit": true,
