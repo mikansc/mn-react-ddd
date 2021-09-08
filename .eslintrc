@@ -5,7 +5,6 @@
   },
   "extends": [
     "eslint:recommended",
-    // "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:promise/recommended",
     "plugin:import/recommended",
@@ -21,12 +20,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": [
-    // "react",
-    "@typescript-eslint",
-    "promise",
-    "import"
-  ],
+  "plugins": ["@typescript-eslint", "promise", "import"],
   "rules": {
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/strict-boolean-expressions": "off"

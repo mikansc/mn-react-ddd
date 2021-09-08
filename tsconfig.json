@@ -10,7 +10,7 @@
     "resolveJsonModule": true,
     "allowJs": true,
     "noEmit": true,
-    "isolatedModules": true,
+    "isolatedModules": false, // provisorio
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

@@ -3,3 +3,6 @@
 /.idea
 /coverage
 .eslintcache
+
+# config do react futuro
+eslint-react.json
