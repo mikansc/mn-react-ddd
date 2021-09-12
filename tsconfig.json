@@ -7,9 +7,10 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "rootDir": "src",
-    "baseUrl": "src",
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["*"]
+      "@data/*": ["./data/*"],
+      "@domain/*": ["./domain/*"]
     },
     "resolveJsonModule": true,
     "allowJs": true,
