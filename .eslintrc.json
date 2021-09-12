@@ -28,6 +28,7 @@
     "@typescript-eslint/comma-spacing": "off",
     "@typescript-eslint/return-await": "off",
     "@typescript-eslint/no-namespace": "off",
+    "@typescript-eslint/ban-types": "off",
     "no-console": "warn",
     "no-redeclare": "off",
     "import/export": "off",
